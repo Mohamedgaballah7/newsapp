@@ -25,7 +25,7 @@ List<Category>categoriesList=[];
     var height=MediaQuery.of(context).size.height;
     var themeProvider=Provider.of<AppThemeProvider>(context);
 
-    categoriesList=Category.getCategoryModel(false, context);
+    categoriesList=Category.getCategoryModel(themeProvider.isDarkMode(), context);
 
     return categoriesList.isEmpty?
     Expanded(child: Center(child: CircularProgressIndicator(color: AppColors.greyColor,))):
