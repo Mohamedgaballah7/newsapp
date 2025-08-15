@@ -1,0 +1,21 @@
+{
+"language":"Language",
+"english":"English",
+"arabic":"Arabic",
+"theme":"Theme",
+"dark":"Dark",
+"light":"Light",
+"go_to_home":"Go To Home",
+"good_morning":"Good Morning",
+"some_news":"Here is Some News For You",
+"view_all":"View All",
+"general":"General",
+"business":"Business",
+"sports":"Sports",
+"health":"Health",
+"science":"Science",
+"entertainment":"Entertainment",
+"technology":"Technology",
+"search":"Search News",
+"home":"Home"
+}
